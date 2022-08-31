@@ -28,7 +28,7 @@ facebook:
 logo: ./assets/img/me.jpg
 social:
   links: #List your social links here
-    - https://chanim.tistory.com/
+   # - https://chanim.tistory.com/
     - https://www.github.com/Changi-Im
     - https://www.linkedin.com/in/changi-im-aa312a215/
 webmaster_verifications:
