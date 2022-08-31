@@ -1,9 +1,9 @@
 ---
-title: Hi, I'm Changi!
 layout: default
-description: "About me"
+title: Hi, I'm Changi
 ---
 ![](/assets/img/me.jpg)
 
-Welcome to Changi website.
+# Hi, I'm Changi
+Welcome to Changi website.  
 Well, I'm feeling little bit lazy now, so let me introduce about me later!😉
