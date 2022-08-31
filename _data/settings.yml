@@ -3,8 +3,8 @@ analytics-id: #leave blank to not use Analytics
 
 #Subtitle
 subtitle:
-  active: true
-  text: Yet Another Minimal Theme
+  active: False
+  text: Hi
 
 #Nav 
 nav:
@@ -31,7 +31,7 @@ mathjax:
 
 #Show related posts based on categories
 related-posts:
-  active: true
+  active: False
   title: "You May Also Enjoy"
 
 #Comments
