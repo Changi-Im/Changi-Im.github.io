@@ -14,8 +14,8 @@ This post is about my "Smart Pet Robot" project. I did this project with friends
 She is cute right? 
 However, me and my friends thought she needed an upgrade because she looks a little creepy.😀 So we came up with a new face for her and the picture below is her new design. 
 
-![](/assets/img/smartbot/design.jpg){: width = 400"}
-![](/assets/img/smartbot/design1.jpg){: width = 400"}
+![](/assets/img/smartbot/design.jpg){: width = "400"}
+![](/assets/img/smartbot/design1.jpg){: width = "400"}
  
 Yea, this is better. 
 We will make her face with LCD display different to previous version. It could make our "Smart Pet"  less creepy than before. I think you guys have heard about "uncanny valley". The uncanny valley is a hypothesized relation between an object's degree of resemblance to a human being and the emotional response to the object. <cite><a href="https://en.wikipedia.org/wiki/Uncanny_valley">Wikipedia</a></cite> Right, the last version of our "Smart Pet" is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always. 
@@ -36,9 +36,9 @@ sudo ./LCD35-show
 Second, we need a robot expression video. I was able to find it on youtube like this:<cite><a href="https://www.youtube.com/watch?v=S79FH99aQWk">Robot Expressions</a></cite>
  
 The robot expression video was cut with blinking, smiling, and heart eyes. Under the normal state, it provides the blinking video, when the robot detects smile of user, it provides the smiling and heart eyes videos.
-![](/assets/img/smartbot/blink_Moment.jpg){: width = 400"}
-![](/assets/img/smartbot/smile_Moment.jpg){: width = 400"}
-![](/assets/img/smartbot/heart_Moment.jpg){: width = 400"}
+![](/assets/img/smartbot/blink_Moment.jpg){: width = "400"}
+![](/assets/img/smartbot/smile_Moment.jpg){: width = "400"}
+![](/assets/img/smartbot/heart_Moment.jpg){: width = "400"}
  
 At last, I made python code for displaying the above videos according to each condition.
 ``` python
