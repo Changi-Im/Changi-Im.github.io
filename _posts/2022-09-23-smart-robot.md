@@ -8,14 +8,12 @@ description: "Robot expression"
 
 This post is about my "Smart Pet Robot" project. I did this project with friends for a contest called hanium in korea. We initially made "Smart Robot" as shown below. 
 
-![](/assets/img/smartbot/prototype.jpg)
-![](/assets/img/smartbot/prototype1.jpg)
+![](/assets/img/smartbot/prototype.jpg) ![](/assets/img/smartbot/prototype1.jpg)
  
 She is cute right? 
 However, me and my friends thought she needed an upgrade because she looks a little creepy.😀 So we came up with a new face for her and the picture below is her new design. 
 
-![](/assets/img/smartbot/design.jpg){: width = "400"}
-![](/assets/img/smartbot/design1.jpg){: width = "400"}
+![](/assets/img/smartbot/design.jpg){: width = "400"} ![](/assets/img/smartbot/design1.jpg){: width = "400"}
  
 Yea, this is better. 
 We will make her face with LCD display different to previous version. It could make our "Smart Pet"  less creepy than before. I think you guys have heard about "uncanny valley". The uncanny valley is a hypothesized relation between an object's degree of resemblance to a human being and the emotional response to the object. <cite><a href="https://en.wikipedia.org/wiki/Uncanny_valley">Wikipedia</a></cite> Right, the last version of our "Smart Pet" is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always. 
@@ -65,4 +63,4 @@ When the robot detects your smile, it alternates between a smile and a heart fac
 As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. 
  
 However, we did too many things today.😪 
-Let's continue the above work on in the next post!
+Let's continue the above work in the next post!
