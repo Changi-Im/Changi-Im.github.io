@@ -53,13 +53,14 @@ while Vid.isOpened():
             flag = 0
 ```  
 When the robot detects your smile, it alternates between a smile and a heart face. The below videos are the results what we did!
-
-<video width = "450" muted autoplay controls>
-    <source src="/assets/img/smartbot/test_comp.mp4" type="video/mp4">
-</video>
-<video width = "450" muted autoplay controls>
-    <source src="/assets/img/smartbot/test_disp.mp4" type="video/mp4">
-</video>
+<center>
+    <video width = "450" muted autoplay controls>
+        <source src="/assets/img/smartbot/test_comp.mp4" type="video/mp4">
+    </video>
+    <video width = "450" muted autoplay controls>
+        <source src="/assets/img/smartbot/test_disp.mp4" type="video/mp4">
+    </video>
+</center>
  
 As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. 
  
