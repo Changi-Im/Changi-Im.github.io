@@ -8,23 +8,23 @@ However, the raspberry pi display had low fps so her blinking was quite unnatura
  
 <center>
     <video width = "450" muted autoplay controls>
-        <source src="/assets/img/smartbot/disp_better.mp4" type="video/mp4">
+        <source src="./disp_better.mp4" type="video/mp4">
     </video>
 </center>
 As you can see the above video, now it has more higher fps. The next step is making a 3d drawing file according to our new design sketch. The picture below is a 3d image using inventor program.
 
-<img src="/assets/img/smartbot/3D_design.png" alt="3D_design" width="450"/>
-<img src="/assets/img/smartbot/printed_3D.jpg" alt="printed_3D" width="450"/>
-<img src="/assets/img/smartbot/painted_3D.jpg" alt="painted_3D" width="450"/>
+<img src="./3D_design.png" alt="3D_design" width="450"/>
+<img src="./printed_3D.jpg" alt="printed_3D" width="450"/>
+<img src="./painted_3D.jpg" alt="painted_3D" width="450"/>
 
 We printed her on 3D printer and dyed. It was such a boring time. Because printing and dyeing took a lot of time. Meanwile, as time went on, We could make her.
 
-<img src="/assets/img/smartbot/assembled_3D.jpg" alt="assembled_3D" width="450"/>
+<img src="./assembled_3D.jpg" alt="assembled_3D" width="450"/>
  
 She is really cute. I couldn't stop looking at her. Let's look at our adorable smart robot.
 <center>
     <video width = "450" muted autoplay controls>
-        <source src="/assets/img/smartbot/playing.mp4" type="video/mp4">
+        <source src="./playing.mp4" type="video/mp4">
     </video>
 </center>
 

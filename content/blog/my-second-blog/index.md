@@ -17,7 +17,7 @@ However, me and my friends thought she needed an upgrade because she looks a lit
 Yea, this is better. 
 We will make her face with LCD display different to previous version. It could make our "Smart Pet"  less creepy than before. I think you guys have heard about "uncanny valley". The uncanny valley is a hypothesized relation between an object's degree of resemblance to a human being and the emotional response to the object. <cite><a href="https://en.wikipedia.org/wiki/Uncanny_valley">Wikipedia</a></cite> Right, the last version of our "Smart Pet" is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always. 
 
-![](/assets/img/smartbot/Uncanny_Valley.jpg)
+![](./Uncanny_Valley.jpg)
  
 Nevertheless, as we design her face with LCD, we don't feel strange emotions anymore. So, yea, Let's begin to make it!
 

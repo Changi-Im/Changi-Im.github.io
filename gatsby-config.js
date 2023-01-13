@@ -27,19 +27,19 @@ module.exports = {
         description:
           `- Development of Relative Positioning Algorithm for Installed Air Conditioners Using Image Information  
           - Extraction of spatial features through product location and temperature changes in the living room`,
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
         name: 'Real-time Object Detection based on Yolo v7 for Traffic Safety System',
         description:
           '- Improving the speed and accuracy performance of detector learning networks by solving data imbalance and classification problems',
-        //link: 'https://chromeextensionkit.com/?ref=devfolio',
+        link: 'https://chromeextensionkit.com/?ref=devfolio',
       },
       {
         name: 'Smart Pet Robot',
         description:
           '- By developing a pet robot that provides psychological stability and smart home care functions, it helps depressed patients, the elderly living alone, the disabled, and people with cognitive difficulties.',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -47,7 +47,7 @@ module.exports = {
       {
         name: 'Kyungpook National University',
         description: 'B.S. in Electronics Engineering, February 2018 - Present (Military leave of absence for 2 years)',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
 
@@ -55,7 +55,7 @@ module.exports = {
       {
         name: 'Tone Image Classification and Weighted Learning for Visible and NIR Image Fusion',
         description: 'B.S. in Electronics Engineering, February 2018 - Present (Military leave of absence for 2 years)',
-        //link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
 

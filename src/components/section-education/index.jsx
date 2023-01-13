@@ -3,12 +3,12 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-const SectionEducation = ({ experience }) => {
-  if (!experience.length) return null;
+const SectionEducation = ({ education }) => {
+  if (!education.length) return null;
 
   return (
     <Section title="Education">
-      {experience.map((item) => (
+      {education.map((item) => (
         <SummaryItem
           key={item.name}
           name={item.name}
