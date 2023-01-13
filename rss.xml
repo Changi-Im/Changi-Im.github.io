@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hi, I'm Changi]]></title><description><![CDATA[Electronics Engineering Student in South Korea]]></description><link>https://changi-im.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Jan 2023 02:53:32 GMT</lastBuildDate><item><title><![CDATA[Smart Pet Robot[2]]]></title><description><![CDATA[We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hi, I'm Changi]]></title><description><![CDATA[Electronics Engineering Student in South Korea]]></description><link>https://changi-im.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Jan 2023 03:02:44 GMT</lastBuildDate><item><title><![CDATA[Smart Pet Robot[2]]]></title><description><![CDATA[We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display. 
 However…]]></description><link>https://changi-im.github.io/blog/my-third-blog/</link><guid isPermaLink="false">https://changi-im.github.io/blog/my-third-blog/</guid><pubDate>Sun, 09 Oct 2022 22:48:00 GMT</pubDate><content:encoded>&lt;p&gt;We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display.
 However, the raspberry pi display had low fps so her blinking was quite unnatural. In order to solve this problem, we changed some configurations in the raspberry pi. Refer to this video and you could find out how to make it. &lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cQvC-UI2vQY&quot;&gt;video&lt;/a&gt;&lt;/cite&gt; &lt;/p&gt;
 &lt;center&gt;
-&lt;video width=&quot;50%&quot; muted autoplay controls&gt;
+&lt;video width = &quot;50%&quot; muted autoplay controls&gt;
     &lt;source src=&quot;/95b471b98274568a3ca61cadc8468465/disp_better.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
-&lt;/center&gt;
-As you can see the above video, now it has more higher fps. The next step is making a 3d drawing file according to our new design sketch. The picture below is a 3d image using inventor program.
+&lt;/center&gt;  
+&lt;p&gt;As you can see the above video, now it has more higher fps. The next step is making a 3d drawing file according to our new design sketch. The picture below is a 3d image using inventor program.  &lt;/p&gt;
 &lt;center&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;&gt;
       &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/034c30280f3366f1154e5f312bc0bbb9/0b5b1/3D_design.png&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
@@ -34,21 +34,21 @@ As you can see the above video, now it has more higher fps. The next step is mak
   &lt;/a&gt;
     &lt;/span&gt;
 &lt;/center&gt;
-We printed her on 3D printer and dyed. It was such a boring time. Because printing and dyeing took a lot of time. Meanwile, as time went on, We could make her.
+We printed her on 3D printer and dyed. It was such a boring time. Because printing and dyeing took a lot of time. Meanwile, as time went on, We could make her.  
 &lt;center&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/7d848e1283792b11f6c68617bab86181/5608a/assembled_3D.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
+      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/5608a/assembled_3D.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
     &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABVTXhOaJF/8QAGhABAAIDAQAAAAAAAAAAAAAAAgMSAAERE//aAAgBAQABBQIx1S4h5HKnWataVyB//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxABAQACAwEAAAAAAAAAAAAAAQAhQRESMcH/2gAIAQEABj8CER+zgB2WTm8zak73/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIVFhMUFx/9oACAEBAAE/IawCwCUSgCFFr3FEs34hBSHpUxvUcVWJ/9oADAMBAAIAAwAAABCcP//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QTtgX/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQARIVH/2gAIAQIBAT8Qusgryf/EAB0QAQACAgIDAAAAAAAAAAAAAAEAETFBUWEhkcH/2gAIAQEAAT8QNSsUB86iup2wtNjfMqil2JfD3KItLtg9cQA4HRbhl12gFz//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;assembled_3D&quot; title=&quot;assembled_3D&quot; src=&quot;/static/7d848e1283792b11f6c68617bab86181/1c72d/assembled_3D.jpg&quot; srcset=&quot;/static/7d848e1283792b11f6c68617bab86181/a80bd/assembled_3D.jpg 148w,
-/static/7d848e1283792b11f6c68617bab86181/1c91a/assembled_3D.jpg 295w,
-/static/7d848e1283792b11f6c68617bab86181/1c72d/assembled_3D.jpg 590w,
-/static/7d848e1283792b11f6c68617bab86181/5608a/assembled_3D.jpg 591w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
+  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;assembled_3D&quot; title=&quot;assembled_3D&quot; src=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/1c72d/assembled_3D.jpg&quot; srcset=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/a80bd/assembled_3D.jpg 148w,
+/static/7e4dd41def704da681eadb969ac1c1a7/1c91a/assembled_3D.jpg 295w,
+/static/7e4dd41def704da681eadb969ac1c1a7/1c72d/assembled_3D.jpg 590w,
+/static/7e4dd41def704da681eadb969ac1c1a7/5608a/assembled_3D.jpg 591w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-&lt;/center&gt;
-She is really cute. I couldn&amp;apos;t stop looking at her. Let&amp;apos;s look at our adorable smart robot.
+&lt;/center&gt;  
+&lt;p&gt;She is really cute. I couldn’t stop looking at her. Let’s look at our adorable smart robot.  &lt;/p&gt;
 &lt;center&gt;
-&lt;video width=&quot;50%&quot; muted autoplay controls&gt;
+&lt;video width = &quot;50%&quot; muted autoplay controls&gt;
     &lt;source src=&quot;/433ff44ae084c749ac3645af9631917f/playing.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
  &lt;/center&gt;
@@ -80,7 +80,7 @@ However, me and my friends thought she needed an upgrade because she looks a lit
     &lt;/span&gt;
 &lt;/center&gt;
 Yea, this is better. 
-We will make her face with LCD display different to previous version. It could make our &amp;quot;Smart Pet&amp;quot;  less creepy than before. I think you guys have heard about &amp;quot;uncanny valley&amp;quot;. The uncanny valley is a hypothesized relation between an object&amp;apos;s degree of resemblance to a human being and the emotional response to the object. &lt;cite&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Uncanny_valley&quot;&gt;Wikipedia&lt;/a&gt;&lt;/cite&gt; Right, the last version of our &amp;quot;Smart Pet&amp;quot; is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always. 
+We will make her face with LCD display different to previous version. It could make our &amp;quot;Smart Pet&amp;quot;  less creepy than before. I think you guys have heard about &amp;quot;uncanny valley&amp;quot;. The uncanny valley is a hypothesized relation between an object&amp;apos;s degree of resemblance to a human being and the emotional response to the object. &lt;cite&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Uncanny_valley&quot;&gt;Wikipedia&lt;/a&gt;&lt;/cite&gt; Right, the last version of our &amp;quot;Smart Pet&amp;quot; is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always.  
 &lt;center&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 77.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHus1KF/8QAFhABAQEAAAAAAAAAAAAAAAAAEBEB/9oACAEBAAEFAq3H/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAECAx/9oACAEBAAY/AhE//8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMRBBUYGR/9oACAEBAAE/IcO3opLZK5Zez//aAAwDAQACAAMAAAAQ98//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQTGR/9oACAEBAAE/EDDV3b6MS0U3OyoE2NHzkbDhBRj+E//Z&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -89,16 +89,16 @@ We will make her face with LCD display different to previous version. It could m
 /static/11d5df9673eb07afd601d775f5a22216/1c72d/Uncanny_Valley.jpg 590w,
 /static/11d5df9673eb07afd601d775f5a22216/b040c/Uncanny_Valley.jpg 844w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
     &lt;/span&gt;
-&lt;/center&gt;
-Nevertheless, as we design her face with LCD, we don&amp;apos;t feel strange emotions anymore. So, yea, Let&amp;apos;s begin to make it!
-&lt;p&gt;First, we need a raspberry pi and a display for raspberry pi. I used 3.5 inch LCD display. Once those two materials were prepared, you could use a display on your raspberry pi using the code below.&lt;/p&gt;
+&lt;/center&gt;  
+&lt;p&gt;Nevertheless, as we design her face with LCD, we don’t feel strange emotions anymore. So, yea, Let’s begin to make it!&lt;br&gt;
+First, we need a raspberry pi and a display for raspberry pi. I used 3.5 inch LCD display. Once those two materials were prepared, you could use a display on your raspberry pi using the code below.  &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;sudo rm -rf LCD-show
 git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show
 cd LCD-show/
 sudo ./LCD35-show&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Second, we need a robot expression video. I was able to find it on youtube like this:&lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=S79FH99aQWk&quot;&gt;Robot Expressions&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;p&gt;The robot expression video was cut with blinking, smiling, and heart eyes. Under the normal state, it provides the blinking video, when the robot detects smile of user, it provides the smiling and heart eyes videos.&lt;/p&gt;
+&lt;p&gt;The robot expression video was cut with blinking, smiling, and heart eyes. Under the normal state, it provides the blinking video, when the robot detects smile of user, it provides the smiling and heart eyes videos.  &lt;/p&gt;
 &lt;center&gt;
 &lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;&gt;
       &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABxGpEVAK//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECExAx/9oACAEBAAEFAlFMzs8FdSaXz//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAEDAQE/Aaf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIv/aAAgBAgEBPwGj/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQITL/2gAIAQEABj8CpGXFM04//8QAGhABAQACAwAAAAAAAAAAAAAAAQARIXHR8f/aAAgBAQABPyEnKpeBIrDpiN5xBdkquW//2gAMAwEAAgADAAAAEEPf/8QAFxEAAwEAAAAAAAAAAAAAAAAAARAhEf/aAAgBAwEBPxA3MX//xAAXEQADAQAAAAAAAAAAAAAAAAABECER/9oACAECAQE/EDUxf//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQZH/2gAIAQEAAT8Q4JawuDNHsjk0MI8jADdiqWVFe8oiRV2s/9k=&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
@@ -124,33 +124,29 @@ sudo ./LCD35-show&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 /static/beaecfd5cd7aba3a0dc8896eec748824/a8a14/heart_Moment.jpg 885w,
 /static/beaecfd5cd7aba3a0dc8896eec748824/6a068/heart_Moment.jpg 960w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
     &lt;/span&gt;
-&lt;/center&gt;
-At last, I made python code for displaying the above videos according to each condition.
-``` python
-Vid = cv2.VideoCapture(&amp;apos;./smart_bot_expression/blink.mp4&amp;apos;)
-while Vid.isOpened():
-    for (sx, sy, sw, sh) in smiles:
-        cv2.rectangle(roi_color, (sx, sy), ((sx + sw), (sy + sh)), (0, 0, 255), 2)
-        if flag == 0:
-            Vid = cv2.VideoCapture(&amp;apos;./smart_bot_expression/smile.mp4&amp;apos;)
-            flag = 1
-        elif flag == 1:
-            Vid = cv2.VideoCapture(&amp;apos;./smart_bot_expression/heart.mp4&amp;apos;)
-            flag = 0
-```  
-When the robot detects your smile, it alternates between a smile and a heart face. The below videos are the results what we did!
+&lt;/center&gt;  
+&lt;p&gt;At last, I made python code for displaying the above videos according to each condition.  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;Vid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cv2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;VideoCapture&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./smart_bot_expression/blink.mp4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;while&lt;/span&gt; Vid&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;isOpened&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sx&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sy&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sw&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sh&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; smiles&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        cv2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;rectangle&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;roi_color&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sx&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; sy&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sx &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; sw&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;sy &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; sh&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; flag &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            Vid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cv2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;VideoCapture&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./smart_bot_expression/smile.mp4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            flag &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;elif&lt;/span&gt; flag &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+            Vid &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cv2&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;VideoCapture&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;./smart_bot_expression/heart.mp4&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+            flag &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;When the robot detects your smile, it alternates between a smile and a heart face. The below videos are the results what we did!  &lt;/p&gt;
 &lt;center&gt;
-    &lt;video width=&quot;50%&quot; muted autoplay controls&gt;
+    &lt;video width = &quot;50%&quot; muted autoplay controls&gt;
         &lt;source src=&quot;/b43f85bfc2ef821a0b95b4d0048806c9/test_comp.mp4&quot; type=&quot;video/mp4&quot;&gt;
     &lt;/video&gt;
-    &lt;video width=&quot;50%&quot; muted autoplay controls&gt;
+    &lt;video width = &quot;50%&quot; muted autoplay controls&gt;
         &lt;source src=&quot;/0a44c08aec4c54b4fc4191cf319f3aec/test_disp.mp4&quot; type=&quot;video/mp4&quot;&gt;
     &lt;/video&gt;
-&lt;/center&gt;
- 
-As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. 
- 
-However, we did too many things today.&amp;#x1F62A; 
-Let&amp;apos;s continue the above work in the next post!</content:encoded></item><item><title><![CDATA[Hello World!]]></title><description><![CDATA[Hello World! This is my first post in here. I’m so excited to open this site. I made this site for posting about my daily life and I wanted…]]></description><link>https://changi-im.github.io/blog/my-first-blog/</link><guid isPermaLink="false">https://changi-im.github.io/blog/my-first-blog/</guid><pubDate>Wed, 31 Aug 2022 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello World! This is my first post in here. I’m so excited to open this site. I made this site for posting about my daily life and I wanted to leave a mark on life.😆&lt;br&gt;
+&lt;/center&gt;  
+&lt;p&gt;As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. &lt;/p&gt;
+&lt;p&gt;However, we did too many things today.😪
+Let’s continue the above work in the next post!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World!]]></title><description><![CDATA[Hello World! This is my first post in here. I’m so excited to open this site. I made this site for posting about my daily life and I wanted…]]></description><link>https://changi-im.github.io/blog/my-first-blog/</link><guid isPermaLink="false">https://changi-im.github.io/blog/my-first-blog/</guid><pubDate>Wed, 31 Aug 2022 23:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello World! This is my first post in here. I’m so excited to open this site. I made this site for posting about my daily life and I wanted to leave a mark on life.😆&lt;br&gt;
 If you want to know who is Changi, please refer to “About me” tab. I’ll post not only my daily life, but also exciting projects which i did.  &lt;/p&gt;
 &lt;p&gt;Let’s see you guys in the next post!&lt;/p&gt;</content:encoded></item></channel></rss>

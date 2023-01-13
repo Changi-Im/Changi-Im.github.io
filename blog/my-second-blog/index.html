@@ -25,7 +25,7 @@ However, me and my friends thought she needed an upgrade because she looks a lit
     </span>
 </center>
 Yea, this is better. 
-We will make her face with LCD display different to previous version. It could make our &quot;Smart Pet&quot;  less creepy than before. I think you guys have heard about &quot;uncanny valley&quot;. The uncanny valley is a hypothesized relation between an object&apos;s degree of resemblance to a human being and the emotional response to the object. <cite><a href="https://en.wikipedia.org/wiki/Uncanny_valley">Wikipedia</a></cite> Right, the last version of our &quot;Smart Pet&quot; is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always. 
+We will make her face with LCD display different to previous version. It could make our &quot;Smart Pet&quot;  less creepy than before. I think you guys have heard about &quot;uncanny valley&quot;. The uncanny valley is a hypothesized relation between an object&apos;s degree of resemblance to a human being and the emotional response to the object. <cite><a href="https://en.wikipedia.org/wiki/Uncanny_valley">Wikipedia</a></cite> Right, the last version of our &quot;Smart Pet&quot; is kind of uncanny valley. Me and my friend had felt something strange emotions with her like always.  
 <center>
 <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;">
       <span class="gatsby-resp-image-background-image" style="padding-bottom: 77.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHus1KF/8QAFhABAQEAAAAAAAAAAAAAAAAAEBEB/9oACAEBAAEFAq3H/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAECAx/9oACAEBAAY/AhE//8QAHBAAAgICAwAAAAAAAAAAAAAAAAERMRBBUYGR/9oACAEBAAE/IcO3opLZK5Zez//aAAwDAQACAAMAAAAQ98//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAwEBAQAAAAAAAAAAAAABABEhQTGR/9oACAEBAAE/EDDV3b6MS0U3OyoE2NHzkbDhBRj+E//Z&apos;); background-size: cover; display: block;"></span>
@@ -34,16 +34,16 @@ We will make her face with LCD display different to previous version. It could m
 /static/11d5df9673eb07afd601d775f5a22216/1c72d/Uncanny_Valley.jpg 590w,
 /static/11d5df9673eb07afd601d775f5a22216/b040c/Uncanny_Valley.jpg 844w" sizes="(max-width: 590px) 100vw, 590px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy">
     </span>
-</center>
-Nevertheless, as we design her face with LCD, we don&apos;t feel strange emotions anymore. So, yea, Let&apos;s begin to make it!
-<p>First, we need a raspberry pi and a display for raspberry pi. I used 3.5 inch LCD display. Once those two materials were prepared, you could use a display on your raspberry pi using the code below.</p>
+</center>  
+<p>Nevertheless, as we design her face with LCD, we don’t feel strange emotions anymore. So, yea, Let’s begin to make it!<br>
+First, we need a raspberry pi and a display for raspberry pi. I used 3.5 inch LCD display. Once those two materials were prepared, you could use a display on your raspberry pi using the code below.  </p>
 <div class="gatsby-highlight" data-language="xml"><pre class="language-xml"><code class="language-xml">sudo rm -rf LCD-show
 git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show
 cd LCD-show/
 sudo ./LCD35-show</code></pre></div>
 <p>Second, we need a robot expression video. I was able to find it on youtube like this:<cite><a href="https://www.youtube.com/watch?v=S79FH99aQWk">Robot Expressions</a></cite></p>
-<p>The robot expression video was cut with blinking, smiling, and heart eyes. Under the normal state, it provides the blinking video, when the robot detects smile of user, it provides the smiling and heart eyes videos.</p>
+<p>The robot expression video was cut with blinking, smiling, and heart eyes. Under the normal state, it provides the blinking video, when the robot detects smile of user, it provides the smiling and heart eyes videos.  </p>
 <center>
 <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;">
       <span class="gatsby-resp-image-background-image" style="padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABxGpEVAK//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECExAx/9oACAEBAAEFAlFMzs8FdSaXz//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAEDAQE/Aaf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQIv/aAAgBAgEBPwGj/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQITL/2gAIAQEABj8CpGXFM04//8QAGhABAQACAwAAAAAAAAAAAAAAAQARIXHR8f/aAAgBAQABPyEnKpeBIrDpiN5xBdkquW//2gAMAwEAAgADAAAAEEPf/8QAFxEAAwEAAAAAAAAAAAAAAAAAARAhEf/aAAgBAwEBPxA3MX//xAAXEQADAQAAAAAAAAAAAAAAAAABECER/9oACAECAQE/EDUxf//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExQZH/2gAIAQEAAT8Q4JawuDNHsjk0MI8jADdiqWVFe8oiRV2s/9k=&apos;); background-size: cover; display: block;"></span>
@@ -69,34 +69,30 @@ sudo ./LCD35-show</code></pre></div>
 /static/beaecfd5cd7aba3a0dc8896eec748824/a8a14/heart_Moment.jpg 885w,
 /static/beaecfd5cd7aba3a0dc8896eec748824/6a068/heart_Moment.jpg 960w" sizes="(max-width: 590px) 100vw, 590px" style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;" loading="lazy">
     </span>
-</center>
-At last, I made python code for displaying the above videos according to each condition.
-``` python
-Vid = cv2.VideoCapture(&apos;./smart_bot_expression/blink.mp4&apos;)
-while Vid.isOpened():
-    for (sx, sy, sw, sh) in smiles:
-        cv2.rectangle(roi_color, (sx, sy), ((sx + sw), (sy + sh)), (0, 0, 255), 2)
-        if flag == 0:
-            Vid = cv2.VideoCapture(&apos;./smart_bot_expression/smile.mp4&apos;)
-            flag = 1
-        elif flag == 1:
-            Vid = cv2.VideoCapture(&apos;./smart_bot_expression/heart.mp4&apos;)
-            flag = 0
-```  
-When the robot detects your smile, it alternates between a smile and a heart face. The below videos are the results what we did!
+</center>  
+<p>At last, I made python code for displaying the above videos according to each condition.  </p>
+<div class="gatsby-highlight" data-language="python"><pre class="language-python"><code class="language-python">Vid <span class="token operator">=</span> cv2<span class="token punctuation">.</span>VideoCapture<span class="token punctuation">(</span><span class="token string">'./smart_bot_expression/blink.mp4'</span><span class="token punctuation">)</span>
+<span class="token keyword">while</span> Vid<span class="token punctuation">.</span>isOpened<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span>sx<span class="token punctuation">,</span> sy<span class="token punctuation">,</span> sw<span class="token punctuation">,</span> sh<span class="token punctuation">)</span> <span class="token keyword">in</span> smiles<span class="token punctuation">:</span>
+        cv2<span class="token punctuation">.</span>rectangle<span class="token punctuation">(</span>roi_color<span class="token punctuation">,</span> <span class="token punctuation">(</span>sx<span class="token punctuation">,</span> sy<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>sx <span class="token operator">+</span> sw<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>sy <span class="token operator">+</span> sh<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">255</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> flag <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+            Vid <span class="token operator">=</span> cv2<span class="token punctuation">.</span>VideoCapture<span class="token punctuation">(</span><span class="token string">'./smart_bot_expression/smile.mp4'</span><span class="token punctuation">)</span>
+            flag <span class="token operator">=</span> <span class="token number">1</span>
+        <span class="token keyword">elif</span> flag <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span>
+            Vid <span class="token operator">=</span> cv2<span class="token punctuation">.</span>VideoCapture<span class="token punctuation">(</span><span class="token string">'./smart_bot_expression/heart.mp4'</span><span class="token punctuation">)</span>
+            flag <span class="token operator">=</span> <span class="token number">0</span></code></pre></div>
+<p>When the robot detects your smile, it alternates between a smile and a heart face. The below videos are the results what we did!  </p>
 <center>
-    <video width="50%" muted autoplay controls>
+    <video width = "50%" muted autoplay controls>
         <source src="/b43f85bfc2ef821a0b95b4d0048806c9/test_comp.mp4" type="video/mp4">
     </video>
-    <video width="50%" muted autoplay controls>
+    <video width = "50%" muted autoplay controls>
         <source src="/0a44c08aec4c54b4fc4191cf319f3aec/test_disp.mp4" type="video/mp4">
     </video>
-</center>
- 
-As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. 
- 
-However, we did too many things today.&#x1F62A; 
-Let&apos;s continue the above work in the next post!</div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+</center>  
+<p>As you can see in the last video, the raspberry pi display shows quite slower speed than the computer monitor. We can improve the speed in the raspberry pi display by reducing color gamut. </p>
+<p>However, we did too many things today.😪
+Let’s continue the above work in the next post!</p></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
   
   
   if(true) {
