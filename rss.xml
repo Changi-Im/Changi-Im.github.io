@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hi, I'm Changi]]></title><description><![CDATA[Electronics Engineering Student in South Korea]]></description><link>https://changi-im.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Jan 2023 03:09:09 GMT</lastBuildDate><item><title><![CDATA[Smart Pet Robot[2]]]></title><description><![CDATA[We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hi, I'm Changi]]></title><description><![CDATA[Electronics Engineering Student in South Korea]]></description><link>https://changi-im.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Jan 2023 03:17:29 GMT</lastBuildDate><item><title><![CDATA[Smart Pet Robot[2]]]></title><description><![CDATA[We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display. 
 However…]]></description><link>https://changi-im.github.io/blog/my-third-blog/</link><guid isPermaLink="false">https://changi-im.github.io/blog/my-third-blog/</guid><pubDate>Sun, 09 Oct 2022 22:48:00 GMT</pubDate><content:encoded>&lt;p&gt;We designed new appearance of our smart pet robot in the last post. Also, we made her face using 3.5 inch raspberry pi LCD display.
 However, the raspberry pi display had low fps so her blinking was quite unnatural. In order to solve this problem, we changed some configurations in the raspberry pi. Refer to this video and you could find out how to make it. &lt;cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cQvC-UI2vQY&quot;&gt;video&lt;/a&gt;&lt;/cite&gt; &lt;/p&gt;
 &lt;center&gt;
@@ -34,24 +34,13 @@ However, the raspberry pi display had low fps so her blinking was quite unnatura
   &lt;/a&gt;
     &lt;/span&gt;
 &lt;/center&gt;  
-&lt;p&gt;We printed her on 3D printer and dyed. It was such a boring time. Because printing and dyeing took a lot of time. Meanwile, as time went on, We could make her.  &lt;/p&gt;
-&lt;center&gt;
-&lt;span class=&quot;gatsby-resp-image-wrapper&quot; style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;&gt;
-      &lt;a class=&quot;gatsby-resp-image-link&quot; href=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/5608a/assembled_3D.jpg&quot; style=&quot;display: block&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;
-    &lt;span class=&quot;gatsby-resp-image-background-image&quot; style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&amp;apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABVTXhOaJF/8QAGhABAAIDAQAAAAAAAAAAAAAAAgMSAAERE//aAAgBAQABBQIx1S4h5HKnWataVyB//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxABAQACAwEAAAAAAAAAAAAAAQAhQRESMcH/2gAIAQEABj8CER+zgB2WTm8zak73/8QAHBAAAgICAwAAAAAAAAAAAAAAAREAIVFhMUFx/9oACAEBAAE/IawCwCUSgCFFr3FEs34hBSHpUxvUcVWJ/9oADAMBAAIAAwAAABCcP//EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QTtgX/8QAGBEBAAMBAAAAAAAAAAAAAAAAAQARIVH/2gAIAQIBAT8Qusgryf/EAB0QAQACAgIDAAAAAAAAAAAAAAEAETFBUWEhkcH/2gAIAQEAAT8QNSsUB86iup2wtNjfMqil2JfD3KItLtg9cQA4HRbhl12gFz//2Q==&amp;apos;); background-size: cover; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;img class=&quot;gatsby-resp-image-image&quot; alt=&quot;assembled_3D&quot; title=&quot;assembled_3D&quot; src=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/1c72d/assembled_3D.jpg&quot; srcset=&quot;/static/7e4dd41def704da681eadb969ac1c1a7/a80bd/assembled_3D.jpg 148w,
-/static/7e4dd41def704da681eadb969ac1c1a7/1c91a/assembled_3D.jpg 295w,
-/static/7e4dd41def704da681eadb969ac1c1a7/1c72d/assembled_3D.jpg 590w,
-/static/7e4dd41def704da681eadb969ac1c1a7/5608a/assembled_3D.jpg 591w&quot; sizes=&quot;(max-width: 590px) 100vw, 590px&quot; style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot; loading=&quot;lazy&quot;&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;
-&lt;/center&gt;  
-&lt;p&gt;She is really cute. I couldn’t stop looking at her. Let’s look at our adorable smart robot.  &lt;/p&gt;
+&lt;p&gt;We printed her on 3D printer and dyed. It was such a boring time. Because printing and dyeing took a lot of time. Meanwile, as time went on, We could make her.&lt;br&gt;
+She is really cute. I couldn’t stop looking at her. Let’s look at our adorable smart robot.  &lt;/p&gt;
 &lt;center&gt;
 &lt;video width = &quot;50%&quot; muted autoplay controls&gt;
     &lt;source src=&quot;/433ff44ae084c749ac3645af9631917f/playing.mp4&quot; type=&quot;video/mp4&quot;&gt;
 &lt;/video&gt;
- &lt;/center&gt;
+ &lt;/center&gt;  
 &lt;p&gt;She wags her tail when we smile! This is amazing right.
 We submitted to hanium contest and awaiting the result right now. Hopefully we can win the prize!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Smart Pet Robot[1]]]></title><description><![CDATA[This post is about my “Smart Pet Robot” project. I did this project with friends for a contest called hanium in korea. We initially made…]]></description><link>https://changi-im.github.io/blog/my-second-blog/</link><guid isPermaLink="false">https://changi-im.github.io/blog/my-second-blog/</guid><pubDate>Fri, 23 Sep 2022 22:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This post is about my “Smart Pet Robot” project. I did this project with friends for a contest called hanium in korea. We initially made “Smart Robot” as shown below. &lt;/p&gt;
 &lt;center&gt;
